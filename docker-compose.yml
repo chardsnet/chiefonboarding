@@ -21,7 +21,7 @@ services:
     expose:
       - "8000"
     environment:
-      - SECRET_KEY=somethingsupersecret
+      - SECRET_KEY=2025supersecret
       - BASE_URL=https://test.chiefonboarding.com
       - DATABASE_URL=postgres://postgres:postgres@db:5432/chiefonboarding
       - ALLOWED_HOSTS=test.chiefonboarding.com
